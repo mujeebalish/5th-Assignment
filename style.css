@@ -7,11 +7,15 @@
     width: 40%;
     height: 7vh;
     background-color: rgba(100, 100, 100, 0.2);
-    
     color: brown;
     border-radius: 10px;
     font-weight: bold;
     font-size: large;
     font-style: italic;
-    font-family: "Itim", serif;;
+    font-family: "Itim", serif;
+    background: linear-gradient();
 }
+
+
+    
+    
