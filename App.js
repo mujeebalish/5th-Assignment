@@ -21,7 +21,7 @@ var findCountry = () => {
         else if(userInput == "America" || userInput == "Usa"){
             image.src = "https://img.freepik.com/free-psd/american-flag_23-2150587464.jpg?ga=GA1.1.1057266126.1707706687&semt=ais_hybrid";
         }
-        var count = countr_H1Name.innerHTML = userInput;
+        countr_H1Name.innerHTML = userInput;
         
     }
     

@@ -15,7 +15,12 @@
     font-family: "Itim", serif;
     background: linear-gradient();
 }
-
+#image-box{
+    z-index: 1;
+}
+#detail-box{
+    z-index: 0;
+}
 
     
     
