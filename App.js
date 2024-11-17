@@ -24,6 +24,23 @@ var findCountry = () => {
         countr_H1Name.innerHTML = userInput;
         
     }
+    var flag_box = document.getElementById("image-box");
+    var detailBox = document.getElementById("detail-box");
+    var hoverH1 = document.getElementById("hover-h1");
+    var overmousefuunc = () => {
+    flag_box.style.transform="translateX(-50%)";
+    detailBox.style.left="50%";
+
+    }
+    var flag_box = document.getElementById("image-box");
+    var detailBox = document.getElementById("detail-box");
+    var hoverH1 = document.getElementById("hover-h1");
+    var onmouseoutfunc = () => {
+    flag_box.style.transform="";
+    detailBox.style.transform="";
+    detailBox.style.left="";
+
+    }
     
     
     

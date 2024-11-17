@@ -15,11 +15,24 @@
     font-family: "Itim", serif;
     background: linear-gradient();
 }
+#row2-box{
+    background-color: aquamarine;
+    position: relative;
+    
+}
 #image-box{
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 357px;
     z-index: 1;
 }
 #detail-box{
-    z-index: 0;
+    width: 600px;
+    position: absolute;
+    top: 0px;
+    right: 400px;   
+    z-index: 0;                 ;
 }
 
     
