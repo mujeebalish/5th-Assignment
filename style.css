@@ -15,23 +15,28 @@
     font-family: "Itim", serif;
     background: linear-gradient();
 }
+/*
 #row2-box{
     background-color: aquamarine;
     position: relative;
-    
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column; 
+} 
+*/
 #image-box{
-    width: 600px;
-    position: absolute;
+    /* width: 600px; */
+    /* position: absolute; */
     top: 0;
-    left: 357px;
+    /* left: 357px; */
     z-index: 1;
 }
 #detail-box{
-    width: 600px;
-    position: absolute;
+    /* width: 600px; */
+    /* position: absolute; */
     top: 0px;
-    right: 400px;   
+    /* right: 400px;    */
     z-index: 0;                 ;
 }
 
